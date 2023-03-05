@@ -3,11 +3,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
 
 import React from "react";
-import Navbar from "./Navbar";
-import Feed from "./Feed";
-import VideoDetail from "./VideoDetail";
-import ChannelDetail from "./ChannelDetail";
-import SearchFeed from "./SearchFeed";
+import Navbar from "./Components/Navbar";
+import Feed from "./Components/Feed";
+import VideoDetail from "./Components/VideoDetail";
+import ChannelDetail from "./Components/ChannelDetail";
+import SearchFeed from "./Components/SearchFeed";
 
 const App = () => {
   return (
